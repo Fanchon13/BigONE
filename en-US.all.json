@@ -1,0 +1,83 @@
+{
+  "app_name": {
+    "other": "BigONE"
+  },
+  "instructions_associate_email_body": {
+    "other": "<p>Hello {{.Email}}!</p><p>Someone has requested a link to associate your email with a {{.AppName}} account. You can do that using the link below.</p><p><a href=\"{{.Host}}/emails/bind?key={{.Key}}&secret={{.Secret}}\">Associate my email</a></p><p>If you didn't request this, please just ignore it or contact {{.AppName}} customer service.</p><p>Your email won't be associated with any {{.AppName}} accounts until you access the link above, or create an account directly.</p>"
+  },
+  "instructions_associate_email_subject": {
+    "other": "{{.AppName}} email instructions"
+  },
+  "instructions_reset_otp_body": {
+    "other": "<p>Hello {{.Email}}!</p><p>Someone has requested a link to change your 2-Factor Authentication. You can do that using the link below.</p><p><a href=\"{{.Host}}/otp/reset?key={{.Key}}&secret={{.Secret}}\">Change my 2-Factor Authentication</a></p><p>If you didn't request this, please contact {{.AppName}} customer service immediately to secure your account.</p><p>Your 2-Factor Authentication won't change until you access the link above and create a new one.</p>"
+  },
+  "instructions_reset_otp_subject": {
+    "other": "Instructions for resetting your 2-Factor Authentication"
+  },
+  "instructions_reset_asset_pin_body": {
+    "other": "<p>Hello {{.Email}}!</p><p>Someone has requested a link to change your Asset PIN. You can do that using the link below.</p><p><a href=\"{{.Host}}/pin/reset?key={{.Key}}&secret={{.Secret}}\">Change my Asset PIN</a></p><p>If you didn't request this, please contact {{.AppName}} customer service immediately to secure your account.</p><p>Your Asset PIN won't change until you access the link above and create a new one.</p>"
+  },
+  "instructions_reset_asset_pin_subject": {
+    "other": "Instructions for resetting your Asset PIN"
+  },
+  "instructions_reset_password_body": {
+    "other": "<p>Hello {{.Email}}!</p><p>Someone has requested a link to change your password. You can do that using the link below.</p><p><a href=\"{{.Host}}/passwords/reset?key={{.Key}}&secret={{.Secret}}\">Change my password</a></p><p>If you didn't request this, please contact {{.AppName}} customer service immediately to secure your account.</p><p>Your password won't change until you access the link above and create a new one.</p>"
+  },
+  "instructions_reset_password_subject": {
+    "other": "Instructions for resetting your password"
+  },
+  "instructions_verify_email_body": {
+    "other": "<p>Please use <strong>{{.Code}}</strong> to verify your email address for {{.AppName}}. The code will expire in 30 minutes.</p><p>If you have received this email in error, please just ignore it or contact {{.AppName}} customer service.</p>"
+  },
+  "instructions_verify_email_subject": {
+    "other": "{{.AppName}} verification code"
+  },
+  "message_welcome_new_user_subject": {
+    "other": "Your {{.AppName}} account has been created!"
+  },
+  "message_welcome_new_user_body": {
+    "other": "<p>Hello {{.Name}},</p><p>Welcome to {{.AppName}}! Your account has been successfully created and you are now able to deposit any of the 30+ cryptocurrencies and tokens we support into your secure wallet.</p><p>In order to comply with government regulations, and better prevent money laundering and other illegal activities, all users must undergo identity verification to trade or make withdrawals.</p><p>Please <a href=\"{{.Host}}/identities/new\">CLICK HERE</a> to apply for identity verification, and carefully fill out the form on the next page.</p><p>Thanks for signing up, and we look forward to improving the site with your feedback.</p>"
+  },
+  "message_deposit_address_update_subject": {
+    "other": "You have a new deposit address"
+  },
+  "message_deposit_address_update_body": {
+    "other": "<p>Hi {{.Name}},</p><p>Your {{.Currencies}} deposit address has been updated. Please log in to {{.AppName}} to view your new deposit address, which can be used immediately.</p>"
+  },
+  "message_deposit_confirmed_subject": {
+    "other": "Your {{.Currency}} deposit has been confirmed"
+  },
+  "message_deposit_confirmed_body": {
+    "other": "<p>Hi {{.Name}},</p><p>Your deposit of {{.Amount}} {{.Currency}} has been confirmed. Please log in to your {{.AppName}} account to view your balance.</p>"
+  },
+  "message_identity_submitted_subject": {
+    "other": "We have received your identity verification request"
+  },
+  "message_identity_submitted_body": {
+    "other": "<p>Hi {{.Name}},</p><p>You have successfully submitted your identity verification request, please wait patiently, as the process can take up to 48 hours, or longer if we are experiencing extraordinarily high user volumes.</p>"
+  },
+  "message_identity_denied_subject": {
+    "other": "Your {{.AppName}} identity verification has been denied"
+  },
+  "message_identity_denied_body": {
+    "other": "<p>Hi {{.Name}},</p><p>Your identity verification has been denied due to incorrect information, please prepare your submission carefully and <a href=\"{{.Host}}/identities/new\">CLICK HERE</a> to apply again. Too many denied verifications may result in a permanent ban.</p><p>The reason for rejection in this case is: {{.Reason}}</p>"
+  },
+  "message_identity_approved_subject": {
+    "other": "Congratulations, your {{.AppName}} identity verification has been approved!"
+  },
+  "message_identity_approved_body": {
+    "other": "<p>Hi {{.Name}},</p><p>Your identity verification has been successfully approved! Now you can use all of the {{.AppName}} features including trading and withdrawals.</p><p>We strongly recommend that you immediately set an <a href=\"{{.Host}}/settings\">Asset PIN</a> which you will use each time you make a withdrawal, in order to further protect your assets on {{.AppName}}.</p>"
+  },
+  "message_asset_pin_verification_submitted_subject": {
+    "other": "We have received your request to reset Asset PIN"
+  },
+  "message_asset_pin_verification_submitted_body": {
+    "other": "<p>Hi {{.Name}},</p><p>You have successfully submitted your Asset PIN resetting request, please wait patiently, as the process can take up to 48 hours, or longer if we are experiencing extraordinarily high user volumes.</p>"
+  },
+  "message_asset_pin_verification_denied_subject": {
+    "other": "Your Asset PIN resetting request has been denied"
+  },
+  "message_asset_pin_verification_denied_body": {
+    "other": "<p>Hi {{.Name}},</p><p>Your Asset PIN resetting request has been denied due to incorrect information, please prepare your submission carefully and <a href=\"{{.Host}}/identities/pin\">CLICK HERE</a> to apply again. Too many denied requests may result in a permanent ban.</p><p>The reason for rejection in this case is: {{.Reason}}</p>"
+  }
+}

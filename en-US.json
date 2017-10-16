@@ -1,0 +1,419 @@
+{
+  "general": {
+    "version": "A new version of the site is available, please refresh your browser.",
+    "languages": {
+      "en-US": "🇺🇸 English",
+      "zh-Hant": "🇭🇰 Traditional Chinese (繁體中文)"
+    },
+    "errors": {
+      "0": "Unknown error.",
+      "session.password": "Invalid email or password.",
+      "session.otp": "Invalid 2FA code.",
+      "400": "The request body can’t be parsed as valid JSON.",
+      "404": "The endpoint is not defined, or contains invalid methods, or is missing HTTP headers.",
+      "401": "Unauthorized, maybe invalid email or password.",
+      "403": "Access denied.",
+      "500": "Internal server error.",
+      "10001": "Internal server error.",
+      "10002": "2-Factor Authentication required.",
+      "20001": "This password is too short, at least 8 characters are required.",
+      "20002": "This email has already been registered.",
+      "20003": "This email is invalid.",
+      "20004": "No user with that email found.",
+      "20005": "Invalid or expired verification code.",
+      "20006": "Invalid 2-factor authenticator code.",
+      "20007": "Failed to deliver the email.",
+      "20102": "Unsupported currency.",
+      "20103": "Unsupported market.",
+      "20105": "Insufficient balance.",
+      "20107": "Unsupported order side.",
+      "20108": "Order doesn't exist.",
+      "20109": "Order amount is too small.",
+      "20110": "Authentication token is not valid for this device.",
+      "20111": "Insufficient mining fee.",
+      "20112": "Invalid withdrawal amount.",
+      "20113": "Invalid address format.",
+      "20114": "The label must not be empty.",
+      "20115": "Name must not be empty.",
+      "20118": "Asset PIN incorrect.",
+      "20119": "Asset PIN format invalid, must be a six digit number.",
+      "20120": "Identity not verified yet."
+    }
+  },
+  "home": {
+    "nav": {
+      "trade": "Trade",
+      "help.center": "Help Center",
+      "sign.in": "Sign In",
+      "sign.up": "Create Account"
+    },
+    "masthead": {
+      "title": "Welcome to BigONE",
+      "description": "The most secure and convenient multi-token exchange in the world.",
+      "action": "View Exchange"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "buttons": {
+      "cancel": "Cancel",
+      "update": "Update",
+      "submit": "Submit",
+      "send": "Send"
+    },
+    "notifications": {
+      "name.update.success": "Name updated successfully.",
+      "asset.pin.update.success": "Asset PIN updated successfully.",
+      "instruction.send.success": "Instructions sent successfully."
+    },
+    "name": {
+      "label": "Name",
+      "placeholder": "name",
+      "header": "Edit Name"
+    },
+    "email": {
+      "label": "Email"
+    },
+    "password": {
+      "label": "Password",
+      "header": "Change Password",
+      "description": "We will send an email to %{email} to guide you through the process of changing your password."
+    },
+    "otp": {
+      "label": "2-Factor Authentication",
+      "header": "Change 2-Factor Authentication",
+      "description": "We will send an email to %{email} to guide you through the process of changing your 2-Factor Authentication."
+    },
+    "asset.pin": {
+      "label": "Asset PIN",
+      "header": {
+        "set": "Set Asset PIN",
+        "change": "Change Asset PIN"
+      },
+      "description": {
+        "main": "The Asset PIN is an optional six digit number chosen by you which will be required each time you wish to make a withdrawal. For security reasons it is NOT POSSIBLE to reset it, so please ensure that you do not forget it. Your Asset PIN is a number chosen by you, and IS NOT the same as your 2-factor authentication code.",
+        "old": "Enter your current Asset PIN (if you have forgotten your current Asset PIN, please <a href=\"/identities/pin\" data-navigo>CLICK HERE</a> to verify your identity to reset your Asset PIN):",
+        "new": "New Asset PIN (leave this blank to disable the Asset PIN requirement for withdrawals):"
+      }
+    },
+    "verification": {
+      "label": "Verification",
+      "description": {
+        "new": "You have not verified your identity yet, please <a href=\"/identities/new\" data-navigo>CLICK HERE</a> to apply for verification.",
+        "submitted": "You have successfully submitted your identity verification request, please wait patiently, as the process can take up to 48 hours, or longer if we are experiencing extraordinarily high user volumes.",
+        "denied": "Your identity verification has been denied, please prepare your submission carefully and <a href=\"/identities/new\" data-navigo>CLICK HERE</a> to apply again. Too many failed verifications may result in a permanent ban."
+      }
+    },
+    "language": {
+      "label": "Language",
+      "header": "Language Preference",
+      "description": "This will change the language of both the interface and all email communications."
+    }
+  },
+  "identities": {
+    "title": "Identity Verification",
+    "action": "Back to Dashboard"
+  },
+  "account": {
+    "buttons": {
+      "cancel": "Cancel",
+      "submit": "Submit",
+      "edit": "Edit",
+      "confirm": "Confirm",
+      "done": "Done",
+      "trust": "Trust",
+      "no": "No",
+      "continue": "Continue",
+      "deposit": "Deposit",
+      "withdrawal": "Withdrawal"
+    },
+    "notifications": {
+      "withdrawal.success": "Withdrawal successful.",
+      "otp.success": "Two-Factor Authentication setup successful.",
+      "password.error": "Password incorrect.",
+      "email.verified.success": "Your email has been verified.",
+      "email.sent.success": "Verification email sent to %{email}."
+    },
+    "balance": {
+      "net.worth": "Approximate Net Worth",
+      "total": "Total",
+      "on.orders": "On Orders"
+    },
+    "section": {
+      "messages": "Messages",
+      "activities": "Activities",
+      "open.orders": "Open Orders",
+      "trades": "Trades",
+      "deposits": "Deposits",
+      "withdrawals": "Withdrawals"
+    },
+    "sign.up": {
+      "title": "Sign Up",
+      "notice": {
+        "terms": "By proceeding, you are agreeing to our <a href=\"https://help.big.one/hc/en-us/articles/115001990533\">Terms of Service</a>, and confirming that you are not a citizen or resident of the United States.",
+        "american": "United States citizens and residents are currently prohibited from using our platform while we await US federal and state licensing. Please <a href=\"https://help.big.one/hc/en-us/articles/115002365714\">see here</a> for more details, and thank you for your patience!",
+        "confirm": "To confirm you agree to our TOS and wish to proceed, please provide your email address.",
+        "verify.email": "Enter the verification code sent to your email %{email}.",
+        "enable.otp": "Enable Two-Factor Authentication.",
+        "otp.qrcode": "Please use an Authenticator app on your mobile phone to scan the QR code below to create a 2FA code in order to continue.",
+        "otp.secret": "If you can't scan the QR code, manually enter the secret key <span class=\"otp secret\">%{secret}</span>.",
+        "name.password": "Enter your name and a secure password."
+      },
+      "field": {
+        "email.placeholder": "email",
+        "name.placeholder": "name",
+        "password.placeholder": "password"
+      },
+      "action": {
+        "sign.in": "Sign In",
+        "resend.email": "Resend Email",
+        "change.email": "Change Email",
+        "create.account": "Create Account"
+      }
+    },
+    "sign.in": {
+      "title": "Sign In",
+      "title.otp": "2-Factor Code",
+      "notice": {
+        "otp": "2-Factor Authentication code for %{email}",
+        "trust": "Will you trust this computer and use it to access your BigONE account regularly?"
+      },
+      "field": {
+        "email.placeholder": "email",
+        "password.placeholder": "password"
+      },
+      "action": {
+        "reset.password": "Forgot Password?",
+        "reset.otp": "Lost 2-Factor Authenticator?",
+        "sign.in": "Sign In",
+        "sign.up": "Sign Up"
+      }
+    },
+    "reset.otp": {
+      "title": {
+        "recover": "Recover 2-Factor",
+        "set": "Reset 2-Factor"
+      },
+      "notice": "We will send you an email to guide you through the process of recovering your 2-Factor Authentication.",
+      "field": {
+        "email.placeholder": "email",
+        "password.placeholder": "password"
+      },
+      "action": {
+        "submit": "Send Me Instructions",
+        "reset.password": "Forgot Password?",
+        "sign.in": "Sign In"
+      },
+      "success": {
+        "instruction": "Your 2-Factor Authentication recovery instructions have been sent, please check your email and follow the instructions to finish the process.",
+        "update": "Your 2-Factor Authentication has been updated successfully. Please sign in with the new one."
+      }
+    },
+    "reset.asset.pin": {
+      "title": "Reset Asset PIN",
+      "notice": "New Asset PIN (leave this blank to disable the Asset PIN requirement for withdrawals):",
+      "action": "Set New Asset PIN",
+      "success": "Your Asset PIN has been updated successfully."
+    },
+    "reset.password": {
+      "title": {
+        "recover": "Recover Password",
+        "set": "Set Password"
+      },
+      "notice": {
+        "email": "We will send you an email to guide you through the process of recovering your password.",
+        "otp": "Two-Factor Authentication code",
+        "password": "Enter a new secure password."
+      },
+      "field": {
+        "email.placeholder": "email",
+        "password.placeholder": "password"
+      },
+      "action": {
+        "submit": "Send Me Instructions",
+        "reset.otp": "Lost 2-Factor Authenticator?",
+        "sign.in": "Sign In",
+        "set.password": "Set New Password"
+      },
+      "success": {
+        "instruction": "Your password recovery instructions have been sent, please check your email and follow the instructions to finish the process.",
+        "update": "Your password has been updated successfully. Please sign in with the new password."
+      }
+    },
+    "deposits": {
+      "field": {
+        "list": "Recent Deposits",
+        "state": "State",
+        "amount": "Amount"
+      },
+      "notice": {
+        "system": {
+          "title": "Your %{currency} Deposit Memo",
+          "memo": "You MUST send your deposit using the deposit memo above. Failure to do so may result in the loss of your deposit.",
+          "account": "<span>%{address}</span> is your %{currency} deposit address."
+        },
+        "title": "Your %{currency} Deposit Address",
+        "address": "Please double-check this address in your wallet before depositing. We recommend sending a small transaction first to ensure the deposit address is correct.",
+        "qrcode": "You can use the QR Code below if your %{currency} wallet supports QR codes. After scanning, please double-check that the deposit address matches the address shown above!",
+        "generate": "Your %{currency} deposit address is still being generated, thanks for your patience.",
+        "verification": "If you haven't applied for identity verification yet, we strongly recommend you to do that <a href=\"/identities/new\" data-navigo>HERE</a> in order to be able to trade and make withdrawals."
+      }
+    },
+    "withdrawals": {
+      "field": {
+        "list": "Recent Withdrawals",
+        "state": "State",
+        "address": "To",
+        "label": "Label",
+        "amount": "Amount",
+        "memo": "Memo"
+      },
+      "notice": {
+        "form": "Please fill out this form extremely carefully, withdrawals are processed immediately and are irreversible!",
+        "fee": "A fixed mining fee of <span class=\"fee\">%{amount} %{currency}</span> will be charged for this withdrawal, please ensure you have enough %{currency} in your account before proceeding, or your withdrawal will fail.",
+        "confirm": "Please double-check the info you've provided, withdrawals are processed immediately and are irreversible!"
+      },
+      "verification": {
+        "reason": "In order to comply with government regulations and fight money laundering and other illegal activities, all users must undergo identity verification in order to make withdrawals.",
+        "routine": "Please <a href=\"/identities/new\" data-navigo>CLICK HERE</a> to apply for identity verification, and carefully fill out the form on the next page."
+      },
+      "asset.pin": {
+        "notice": "If these details are correct, please enter your Asset PIN to confirm the withdrawal.",
+        "warning": "You have not yet set an Asset PIN, we recommend you do so at your earliest convenience in order to better secure your account."
+      }
+    }
+  },
+  "trade": {
+    "ticker": {
+      "last.price": "Last Price",
+      "24h": {
+        "change": "24h Change",
+        "low": "24h Low",
+        "high": "24h High",
+        "volume": "24h Volume"
+      }
+    },
+    "interval": {
+      "1m": "1M",
+      "5m": "5M",
+      "15m": "15M",
+      "1h": "1H",
+      "6h": "6H",
+      "24h": "24H"
+    },
+    "candle.tooltip": {
+      "open": "OPEN",
+      "high": "HIGH",
+      "low": "LOW",
+      "close": "CLOSE",
+      "volume": "VOLUME"
+    },
+    "depth": {
+      "market.spread": "Market Spread",
+      "tooltip": {
+        "price": "PRICE",
+        "volume": "VOLUME"
+      }
+    },
+    "trades": {
+      "list": "Recent Trades",
+      "sum": "Sum",
+      "amount": "Amount",
+      "price": "Price"
+    },
+    "orders": {
+      "ask": "Ask",
+      "bid": "Bid",
+      "sum": "Sum",
+      "amount": "Amount"
+    },
+    "account": {
+      "action": {
+        "or": "or",
+        "sign.in": "Sign In",
+        "sign.up": "Create Account",
+        "trade": "Trade",
+        "buy": "Buy",
+        "sell": "Sell"
+      },
+      "field": {
+        "amount": "Amount",
+        "price": "Price",
+        "balance": "Balance",
+        "buy.total": "Sum",
+        "sell.total": "Sum"
+      },
+      "orders": {
+        "title": "My Open Orders",
+        "side": "Side",
+        "amount": "Amount",
+        "price": "Price"
+      },
+      "trades": {
+        "title": "My Trade History",
+        "time": "Time",
+        "amount": "Amount",
+        "price": "Price"
+      }
+    }
+  },
+  "deposits": {
+    "title": "Deposits",
+    "field": {
+      "time": "Time",
+      "currency": "Currency",
+      "amount": "Amount",
+      "state": "State"
+    },
+    "action": "Load more"
+  },
+  "withdrawals": {
+    "title": "Withdrawals",
+    "field": {
+      "time": "Time",
+      "currency": "Currency",
+      "amount": "Amount",
+      "address": "To",
+      "state": "State"
+    },
+    "action": "Load more"
+  },
+  "orders": {
+    "title": "Open Orders",
+    "field": {
+      "side": "Side",
+      "sum": "Sum",
+      "amount": "Amount",
+      "price": "Price"
+    },
+    "action": {
+      "cancel": {
+        "all": "Cancel all",
+        "ask": "Cancel ask",
+        "bid": "Cancel bid"
+      }
+    }
+  },
+  "trades": {
+    "title": "Trades",
+    "field": {
+      "sum": "Sum",
+      "amount": "Amount",
+      "price": "Price"
+    },
+    "action": "Load more"
+  },
+  "messages": {
+    "title": "Messages",
+    "action": "Load more"
+  },
+  "activities": {
+    "title": "Activities",
+    "field": {
+      "time": "Time",
+      "ip": "IP",
+      "device": "Device"
+    },
+    "action": "Load more"
+  }
+}
