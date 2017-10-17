@@ -1,0 +1,83 @@
+{
+  "app_name": {
+    "other": "BigONE"
+  },
+  "instructions_associate_email_body": {
+    "other": "<p>您好， {{.Email}}!</p><p>您已請求將您的電子郵件地址與 {{.AppName}} 賬戶關聯，請點擊以下鏈接進行進一步操作。</p><p><a href=\"{{.Host}}/emails/bind?key={{.Key}}&secret={{.Secret}}\">關聯我的電子郵件地址</a></p><p>如非本人操作，請立即聯繫 {{.AppName}} 客服以保障您的賬戶安全。</p><p>若您未能點擊以上鏈接，或者從未使用此郵箱註冊過新賬戶，您的電子郵件地址將不會與任何 {{.AppName}} 賬戶關聯。</p>"
+  },
+  "instructions_associate_email_subject": {
+    "other": "{{.AppName}} 電子郵件地址關聯說明"
+  },
+  "instructions_reset_otp_body": {
+    "other": "<p>您好， {{.Email}}!</p><p>您已請求重置您的雙重驗證，請點擊以下鏈接來進行重置。</p><p><a href=\"{{.Host}}/otp/reset?key={{.Key}}&secret={{.Secret}}\">重置我的雙重驗證</a></p><p>如非本人操作，請立即聯繫 {{.AppName}} 客服以保障您的賬戶安全。</p><p>若您未能點擊以上鏈接，您的雙重驗證將不會被重置。</p>"
+  },
+  "instructions_reset_otp_subject": {
+    "other": "雙重驗證重置說明"
+  },
+  "instructions_reset_asset_pin_body": {
+    "other": "<p>您好， {{.Email}}!</p><p>您已請求重置您的資產 PIN 碼，請點擊以下鏈接來進行重置。</p><p><a href=\"{{.Host}}/pin/reset?key={{.Key}}&secret={{.Secret}}\">重置我的資產 PIN 碼</a></p><p>如非本人操作，請立即聯繫 {{.AppName}} 客服以保障您的賬戶安全。</p><p>若您未能點擊以上鏈接，您的資產 PIN 碼將不會被重置。</p>"
+  },
+  "instructions_reset_asset_pin_subject": {
+    "other": "資產 PIN 碼重置說明"
+  },
+  "instructions_reset_password_body": {
+    "other": "<p>您好， {{.Email}}!</p><p>您已請求修改您的密碼，請點擊以下鏈接來進行修改。</p><p><a href=\"{{.Host}}/passwords/reset?key={{.Key}}&secret={{.Secret}}\">修改密碼</a></p><p>如非本人操作，請立即聯繫 {{.AppName}} 客服以保障您的賬戶安全。</p><p>若您未能點擊以上鏈接，您的密碼將不會被修改。</p>"
+  },
+  "instructions_reset_password_subject": {
+    "other": "密碼修改說明"
+  },
+  "instructions_verify_email_body": {
+    "other": "<p>請使用 <strong>{{.Code}}</strong> 來對您的 {{.AppName}} 賬戶進行電子郵件驗證。該驗證碼將在30分鐘后失效。</p><p>如果您誤收此郵件，請自動忽略或者聯繫 {{.AppName}} 客服。</p>"
+  },
+  "instructions_verify_email_subject": {
+    "other": " {{.AppName}} 驗證碼"
+  },
+  "message_welcome_new_user_subject": {
+    "other": " {{.AppName}} 賬戶已創建！"
+  },
+  "message_welcome_new_user_body": {
+    "other": "<p>您好， {{.Name}}，</p><p>歡迎來到 {{.AppName}}！ 您的賬戶已經創建成功，現在您已可以對本平台支持的 30+ 種區塊鏈資產進行充值。</p><p>應相關法規，并更好地防止服務被用作反洗錢和其他非法活動用途，所有用戶必須在通過身份認證后才能進行交易和提現。</p><p>請 <a href=\"{{.Host}}/identities/new\">點擊此處</a> 申請身份認證, 并仔細填寫下一頁的表格。</p><p>感謝您的註冊，您的意見反饋是平台日臻完善的動力！</p>"
+  },
+  "message_deposit_address_update_subject": {
+    "other": "您有一個新的充值地址"
+  },
+  "message_deposit_address_update_body": {
+    "other": "<p>您好， {{.Name}}，</p><p>您的 {{.Currencies}} 充值地址已經更新。 請登錄 {{.AppName}} 賬戶查看您的新充值地址，新的充值地址可以立即被使用。</p>"
+  },
+  "message_deposit_confirmed_subject": {
+    "other": " {{.Currency}} 充值已確認"
+  },
+  "message_deposit_confirmed_body": {
+    "other": "<p>您好， {{.Name}}，</p><p>您的充值 {{.Amount}} {{.Currency}} 已經被確認。 請登錄 {{.AppName}} 賬戶查看您的餘額。</p>"
+  },
+  "message_identity_submitted_subject": {
+    "other": "身份認證申請提交成功"
+  },
+  "message_identity_submitted_body": {
+    "other": "<p>您好， {{.Name}}，</p><p>您已成功提交身份認證信息。 請耐心等候，我們通常會在48小時內處理完畢，如遇用戶量激增等特殊情況將適當延長處理時間，感謝您的理解與支持。</p>"
+  },
+  "message_identity_denied_subject": {
+    "other": " {{.AppName}} 身份認證未通過"
+  },
+  "message_identity_denied_body": {
+    "other": "<p>您好， {{.Name}}，</p><p>很抱歉，您未通過身份認證。請在認真核對過您需要提交的信息后 <a href=\"{{.Host}}/identities/new\">點擊此處</a> 再次申請認證。多次未通過將導致此賬戶不可再認證。</p><p>本次拒絕理由是： {{.Reason}}</p>"
+  },
+  "message_identity_approved_subject": {
+    "other": "恭喜通過 {{.AppName}} 身份認證！"
+  },
+  "message_identity_approved_body": {
+    "other": "<p>您好， {{.Name}}，</p><p>您已成功通過身份認證！ 現在您已經可以使用 {{.AppName}} 包括交易和提現在內的全部功能。</p><p>為了您的 {{.AppName}} 賬戶安全，</p>強烈建議您立即設置 <a href=\"{{.Host}}/settings\">資產 PIN 碼</a>。"
+  },
+  "message_asset_pin_verification_submitted_subject": {
+    "other": "資產 PIN 碼重置申請提交成功"
+  },
+  "message_asset_pin_verification_submitted_body": {
+    "other": "<p>您好， {{.Name}}，</p><p>您已成功提交資產 PIN 碼重置申請。 請耐心等候，我們通常會在48小時內處理完畢，如遇用戶量激增等特殊情況將適當延長處理時間，感謝您的理解與支持。</p>"
+  },
+  "message_asset_pin_verification_denied_subject": {
+    "other": "資產 PIN 碼重置申請未通過"
+  },
+  "message_asset_pin_verification_denied_body": {
+    "other": "<p>您好， {{.Name}}，</p><p>很抱歉，您的資產 PIN 碼重置申請未通過。請在認真核對過您需要提交的信息后 <a href=\"{{.Host}}/identities/pin\">點擊此處</a> 再次申請重置，多次未通過將導致此賬戶不可再申請重置資產 PIN 碼。</p><p>本次拒絕理由為： {{.Reason}}</p>"
+  }
+}
