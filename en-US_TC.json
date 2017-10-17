@@ -1,0 +1,419 @@
+{
+  "general": {
+    "version": "有新版本可用，請刷新您的瀏覽器。",
+    "languages": {
+      "en-US": "🇺🇸 English",
+      "zh-Hant": "🇭🇰 Traditional Chinese (繁體中文)"
+    },
+    "errors": {
+      "0": "未知錯誤。",
+      "session.password": "用戶名或密碼無效。",
+      "session.otp": "雙重驗證碼無效。",
+      "400": "請求無法解析。",
+      "404": "端點未定義，或包含無效方法，或缺少 HTTP 標頭。",
+      "401": "授權失敗，電子郵件地址或密碼無效。",
+      "403": "拒絕訪問。",
+      "500": "內部服務器錯誤。",
+      "10001": "內部服務器錯誤。",
+      "10002": "請先進行雙重驗證。",
+      "20001": "密碼過於簡單，請設置成至少八位。",
+      "20002": "該電子郵件地址已被佔用。",
+      "20003": "電子郵件地址無效。",
+      "20004": "未找到該用戶。",
+      "20005": "驗證碼無效或已過期。",
+      "20006": "雙重驗證碼無效。",
+      "20007": "發送郵件失敗。",
+      "20102": "幣種不受支持。",
+      "20103": "市場不受支持。",
+      "20105": "餘額不足。",
+      "20107": "訂單不受支持。",
+      "20108": "訂單不存在。",
+      "20109": "訂單數量過少。",
+      "20110": "身份驗證令牌不適用於此設備。",
+      "20111": "提現手續費不足。",
+      "20112": "提現數量無效。",
+      "20113": "地址格式無效。",
+      "20114": "標籤不能為空。",
+      "20115": "用戶名不能為空。",
+      "20118": "資產 PIN 碼錯誤。",
+      "20119": "資產 PIN 碼格式無效，必須使用六位數字的形式。",
+      "20120": "尚未進行身份認證。"
+    }
+  },
+  "home": {
+    "nav": {
+      "trade": "交易大廳",
+      "help.center": "幫助中心",
+      "sign.in": "登錄",
+      "sign.up": "註冊"
+    },
+    "masthead": {
+      "title": "歡迎使用 BigONE",
+      "description": "最安全，最便利的多幣種全球交易平台。",
+      "action": "交易平台概覽"
+    }
+  },
+  "settings": {
+    "title": "設置",
+    "buttons": {
+      "cancel": "取消",
+      "update": "更新",
+      "submit": "提交",
+      "send": "發送"
+    },
+    "notifications": {
+      "name.update.success": "用戶名已更新。",
+      "asset.pin.update.success": "資產 PIN 碼已更新。",
+      "instruction.send.success": "指令已發送。"
+    },
+    "name": {
+      "label": "用戶名",
+      "placeholder": "用戶名",
+      "header": "修改用戶名"
+    },
+    "email": {
+      "label": "電子郵件地址",
+    },
+    "password": {
+      "label": "密碼",
+      "header": "修改密碼",
+      "description": "我們將發送一封電子郵件至 %{email} ，請根據郵件完成修改密碼的後續操作。"
+    },
+    "otp": {
+      "label": "雙重驗證",
+      "header": "重置雙重驗證",
+      "description": "我們將發送一封電子郵件至 %{email} ，請根據郵件完成重置雙重驗證的後續操作。"
+    },
+    "asset.pin": {
+      "label": "資產 PIN 碼",
+      "header": {
+        "set": "設置資產 PIN 碼",
+        "change": "修改資產 PIN 碼"
+      },
+      "description": {
+        "main": "資產 PIN 碼是用於保障您賬戶提現安全的任意六位數字密碼，請您在設置后謹慎留存，一旦遺忘將無法找回。資產 PIN 碼是由您本人自由組合的六位數字密碼，請勿與雙重驗證碼混淆！",
+        "old": "請輸入當前的資產 PIN 碼 （如果您不慎遺忘了您當前的資產 PIN 碼，請 <a href=\"/identities/pin\" data-navigo>點擊此處</a> 進行身份認證以申請修改您的資產 PIN 碼）:",
+        "new": "請輸入新的資產 PIN 碼 (保留空白以取消原有資產 PIN 碼):"
+      }
+    },
+    "verification": {
+      "label": "認證",
+      "description": {
+        "new": "您尚未通過身份認證，請 <a href=\"/identities/new\" data-navigo>點擊此處</a> 來申請。",
+        "submitted": "您已成功提交了身份認證信息, 請耐心等候。我們通常會在48小時內處理完畢，如遇用戶量激增等特殊情況將適當延長處理時間，感謝您的理解與支持。",
+        "denied": "很抱歉，您未通過身份認證。請在認真核對過您需要提交的信息后 <a href=\"/identities/new\" data-navigo>點擊此處</a> 再次申請認證，多次未通過將導致此賬戶不可再認證。"
+      }
+    },
+    "language": {
+      "label": "語言",
+      "header": "更換語言",
+      "description": "這將影響到平台所有界面以及所有電子郵件通知的語言顯示。"
+    }
+  },
+  "identities": {
+    "title": "身份認證",
+    "action": "返回主界面"
+  },
+  "account": {
+    "buttons": {
+      "cancel": "取消",
+      "submit": "提交",
+      "edit": "編輯",
+      "confirm": "確認",
+      "done": "完成",
+      "trust": "信任",
+      "no": "否",
+      "continue": "繼續",
+      "deposit": "充值",
+      "withdrawal": "提現"
+    },
+    "notifications": {
+      "withdrawal.success": "提現成功。",
+      "otp.success": "雙重驗證碼正確。",
+      "password.error": "密碼錯誤。",
+      "email.verified.success": "電子郵件驗證成功。",
+      "email.sent.success": "驗證郵件已發送至 %{email}。"
+    },
+    "balance": {
+      "net.worth": "資產估值",
+      "total": "全部",
+      "on.orders": "鎖定中"
+    },
+    "section": {
+      "messages": "消息",
+      "activities": "活動",
+      "open.orders": "待執行訂單",
+      "trades": "交易記錄",
+      "deposits": "充值記錄",
+      "withdrawals": "提現資產記錄"
+    },
+    "sign.up": {
+      "title": "註冊",
+      "notice": {
+        "terms": "您同意 <a href=\"https://help.big.one/hc/en-us/articles/115001990533\">服務條款</a>, 并確認您不屬於美國公民或居民。",
+        "american": "直到獲得美國聯邦和州的許可證前，美國公民或居民將被禁止使用本平台。 更多細節請 <a href=\"https://help.big.one/hc/en-us/articles/115002365714\">閱讀全文</a> ，感謝您的耐心等候！",
+        "confirm": "為了確定您同意我們的服務條款，請提供您的電子郵件地址。",
+        "verify.email": "請輸入發送到您郵箱 %{email} 中的驗證碼。",
+        "enable.otp": "開啟雙重驗證。",
+        "otp.qrcode": "請使用您手機上的谷歌身份驗證器掃描下列二維碼來創建一次性密碼。",
+        "otp.secret": "如果您無法掃描二維碼，請手動輸入 <span class=\"otp secret\">%{secret}</span> 來創建。",
+        "name.password": "請輸入您的用戶名及密碼。"
+      },
+      "field": {
+        "email.placeholder": "電子郵件地址",
+        "name.placeholder": "用戶名",
+        "password.placeholder": "密碼"
+      },
+      "action": {
+        "sign.in": "登錄",
+        "resend.email": "重新發送",
+        "change.email": "修改電子郵件地址",
+        "create.account": "創建賬戶"
+      }
+    },
+    "sign.in": {
+      "title": "登錄",
+      "title.otp": "雙重驗證碼",
+      "notice": {
+        "otp": "請輸入 %{email} 的雙重驗證碼",
+        "trust": "您是否信任此電腦并將其作為您登錄 BigONE 賬戶的常用設備？"
+      },
+      "field": {
+        "email.placeholder": "電子郵件地址",
+        "password.placeholder": "密碼"
+      },
+      "action": {
+        "reset.password": "忘記密碼？",
+        "reset.otp": "遺失雙重驗證？",
+        "sign.in": "登錄",
+        "sign.up": "註冊"
+      }
+    },
+    "reset.otp": {
+      "title": {
+        "recover": "恢復雙重驗證",
+        "set": "設置雙重驗證"
+      },
+      "notice": "我們將給您發送一封郵件來幫助您重置您的雙重驗證。",
+      "field": {
+        "email.placeholder": "電子郵件地址",
+        "password.placeholder": "密碼"
+      },
+      "action": {
+        "submit": "發送指令",
+        "reset.password": "忘記密碼？",
+        "sign.in": "登錄"
+      },
+      "success": {
+        "instruction": "雙重驗證重置指令已發送，請查收您的郵件并按指令完成操作。",
+        "update": "您的雙重驗證已更新，請使用新的雙重驗證登錄。"
+      }
+    },
+    "reset.asset.pin": {
+      "title": "重置 PIN 碼",
+      "notice": "輸入新的資產 PIN 碼 (保留空白以取消原有資產 PIN 碼):",
+      "action": "請設置新的資產 PIN 碼",
+      "success": "您的資產 PIN 碼已更新。"
+    },
+    "reset.password": {
+      "title": {
+        "recover": "恢復密碼",
+        "set": "設置密碼"
+      },
+      "notice": {
+        "email": "我們將給您發送一封郵件來幫助您重置您的密碼。",
+        "otp": "雙重驗證碼",
+        "password": "設置新的密碼。"
+      },
+      "field": {
+        "email.placeholder": "電子郵件地址",
+        "password.placeholder": "密碼"
+      },
+      "action": {
+        "submit": "發送指令",
+        "reset.otp": "遺失雙重驗證？",
+        "sign.in": "登錄",
+        "set.password": "設置新密碼"
+      },
+      "success": {
+        "instruction": "密碼重置指令已發送，請查收您的郵件并按指令完成操作。",
+        "update": "您的密碼已更新，請使用新的密碼登錄。"
+      }
+    },
+    "deposits": {
+      "field": {
+        "list": "近期充值",
+        "state": "狀態",
+        "amount": "數量"
+      },
+      "notice": {
+        "system": {
+          "title": "您的 %{currency} 充值 Memo",
+          "memo": "您必須使用如上 Memo 來協助進行您的充值，否則將導致充值失敗無法到賬。",
+          "account": "<span>%{address}</span> 是您的 %{currency} 充值賬戶。"
+        },
+        "title": "您的 %{currency} 充值地址",
+        "address": "充值前請再次確認您的錢包地址，建議您先進行一筆小額充值以確認該充值地址無誤。",
+        "qrcode": "如果您的錢包 %{currency} 支持的話您也可以掃描二維碼。掃描后，請再次確認充值地址是否與上述相符。",
+        "generate": "您的 %{currency} 充值地址正在創建中，請耐心等候。",
+        "verification": "如果您還沒有完成身份認證，強烈建議您 <a href=\"/identities/new\" data-navigo>點擊此處</a> 完成身份認證以便能夠正常交易和提現。"
+      }
+    },
+    "withdrawals": {
+      "field": {
+        "list": "近期提現",
+        "state": "狀態",
+        "address": "提現地址",
+        "label": "標籤",
+        "amount": "數量",
+        "memo": "Memo"
+      },
+      "notice": {
+        "form": "請仔細填寫提現信息，一旦確認申請，提現將被立即執行，不可撤銷！",
+        "fee": "此次提現將收取固定的提現費用 <span class=\"fee\">%{amount} %{currency}</span> ，請確保您的賬戶有足夠的 %{currency} 費用留存，否則此次提現將會失敗。",
+        "confirm": "請再次仔細確認您的提現信息，一旦申請，提現將被立即執行，不可撤銷！"
+      },
+      "verification": {
+        "reason": "應政府相關規定，并更好的防止服務被用作反洗錢和其他非法活動用途，所有用戶必須在通過身份認證后才能進行提現。",
+        "routine": "請 <a href=\"/identities/new\" data-navigo>點擊此處</a> 申請身份認證, 并仔細填寫下一頁的表格。"
+      },
+      "asset.pin": {
+        "notice": "如您已經確認所有填寫信息無誤，請輸入您的資產 PIN 碼確認此次提現。",
+        "warning": "您的資產 PIN 碼尚未設置, 為了您的賬戶資產安全，建議您立即設置。"
+      }
+    }
+  },
+  "trade": {
+    "ticker": {
+      "last.price": "最新價格",
+      "24h": {
+        "change": "24h 漲跌幅",
+        "low": "24h 最低價",
+        "high": "24h 最高價",
+        "volume": "24h 成交量"
+      }
+    },
+    "interval": {
+      "1m": "1M",
+      "5m": "5M",
+      "15m": "15M",
+      "1h": "1H",
+      "6h": "6H",
+      "24h": "24H"
+    },
+    "candle.tooltip": {
+      "open": "開盤價",
+      "high": "最高價",
+      "low": "最低價",
+      "close": "收盤價",
+      "volume": "成交量"
+    },
+    "depth": {
+      "market.spread": "買賣差價",
+      "tooltip": {
+        "price": "價格",
+        "volume": "總量"
+      }
+    },
+    "trades": {
+      "list": "近期交易",
+      "sum": "總量",
+      "amount": "數量",
+      "price": "價格"
+    },
+    "orders": {
+      "ask": "問價",
+      "bid": "出價",
+      "sum": "總量",
+      "amount": "數量"
+    },
+    "account": {
+      "action": {
+        "or": "或",
+        "sign.in": "登錄",
+        "sign.up": "註冊",
+        "trade": "交易",
+        "buy": "買入",
+        "sell": "賣出"
+      },
+      "field": {
+        "amount": "數量",
+        "price": "價格",
+        "balance": "餘額",
+        "buy.total": "買入總量",
+        "sell.total": "賣出總量"
+      },
+      "orders": {
+        "title": "待執行訂單",
+        "side": "類型",
+        "amount": "數量",
+        "price": "價格"
+      },
+      "trades": {
+        "title": "交易歷史",
+        "time": "時間",
+        "amount": "數量",
+        "price": "價格"
+      }
+    }
+  },
+  "deposits": {
+    "title": "充值",
+    "field": {
+      "time": "時間",
+      "currency": "幣種",
+      "amount": "數量",
+      "state": "狀態"
+    },
+    "action": "加載更多"
+  },
+  "withdrawals": {
+    "title": "提現",
+    "field": {
+      "time": "時間",
+      "currency": "幣種",
+      "amount": "數量",
+      "address": "地址",
+      "state": "狀態"
+    },
+    "action": "加載更多"
+  },
+  "orders": {
+    "title": "待執行訂單",
+    "field": {
+      "side": "類型",
+      "sum": "總量",
+      "amount": "數量",
+      "price": "價格"
+    },
+    "action": {
+      "cancel": {
+        "all": "取消全部",
+        "ask": "取消問價",
+        "bid": "取消出價"
+      }
+    }
+  },
+  "trades": {
+    "title": "交易",
+    "field": {
+      "sum": "總量",
+      "amount": "數量",
+      "price": "價格"
+    },
+    "action": "加載更多"
+  },
+  "messages": {
+    "title": "消息",
+    "action": "加載更多"
+  },
+  "activities": {
+    "title": "活動",
+    "field": {
+      "time": "時間",
+      "ip": "IP",
+      "device": "設備"
+    },
+    "action": "加載更多"
+  }
+}
